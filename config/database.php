@@ -11,7 +11,7 @@ return [
     |
     | Here you may specify which of the database connections below you wish
     | to use as your default connection for all database work. Of course
-    | you may use many connections at once using the Database library.
+    | you may use many connections at once using the Database library..
     |
     */
 
@@ -48,9 +48,9 @@ return [
             'url' => env('DATABASE_URL'),
             'host' => env('DB_HOST', '127.0.0.1'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'database' => env('DB_DATABASE', 'server-12345.mysql.database.azure.com'),
+            'username' => env('DB_USERNAME', 'yssqdhexfw'),
+            'password' => env('DB_PASSWORD', 'ZRNH2L48BR6614N5$'),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
